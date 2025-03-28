@@ -13,18 +13,18 @@ export default function TestimonialsSection() {
         "12 nouveaux clients dès le premier mois. Le retour sur investissement a été immédiat!",
     },
     {
-      name: "Marie Lambert",
-      business: "Salon de Coiffure Élégance",
+      name: "Laura Boscher",
+      business: "Assistante maternelle",
       photo: "/placeholder.svg?height=100&width=100",
       quote:
-        "Mon agenda est maintenant complet 3 semaines à l'avance. Merci WebFury!",
+        "Taux de remplissage atteint en seulement 15 jours grâce à WebFury. Une vraie révolution pour mon activité!",
     },
     {
-      name: "Thomas Martin",
-      business: "Plomberie Express",
+      name: "Marciano Pereira",
+      business: "Artisan Peintre",
       photo: "/placeholder.svg?height=100&width=100",
       quote:
-        "J'ai dû embaucher un assistant pour gérer toutes les demandes générées par mon site.",
+        "Nombre de devis doublé en 40 jours. WebFury a complètement transformé ma visibilité en ligne.",
     },
   ];
 

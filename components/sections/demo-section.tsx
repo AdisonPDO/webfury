@@ -27,24 +27,6 @@ export default function DemoSection() {
       result: "Nombre de devis doublé en 40 jours",
       type: "Artisan Peintre",
     },
-    {
-      image: "/placeholder.svg?height=400&width=600",
-      title: "Salon Beauté Pure",
-      result: "De 0 à 52 rendez-vous/mois en 30 jours",
-      type: "Beauté",
-    },
-    {
-      image: "/placeholder.svg?height=400&width=600",
-      title: "Cabinet Santé Plus",
-      result: "De 0 à 41 consultations/mois en 30 jours",
-      type: "Santé",
-    },
-    {
-      image: "/placeholder.svg?height=400&width=600",
-      title: "Auto-école Conduite",
-      result: "De 0 à 19 inscriptions/mois en 30 jours",
-      type: "Service",
-    },
   ];
 
   const nextSlide = () => {

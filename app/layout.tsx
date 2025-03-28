@@ -73,9 +73,9 @@ export default function RootLayout({
                 "addressCountry": "FR"
               },
               "priceRange": "€€",
-              "openingHours": "Mo-Fr 09:00-18:00",
-              "telephone": "+33-000000000", // Remplacer par votre numéro
-              "email": "contact@webfury.fr", // Remplacer par votre email
+              "openingHours": "Lundi-Samedi 09:00-18:00",
+              "telephone": "+33627521624",
+              "email": "contact@webfury.fr",
               "sameAs": [
                 "https://twitter.com/webfury",
                 "https://discord.gg/JDMkBb9Ar5"
