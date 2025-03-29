@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "WebFury - Création de landing pages en 48h à Marseille",
-  description: "Agence de création de landing pages professionnelles à Marseille. Site web pro en 48h pour seulement 29,99€/mois. Conversion garantie.",
-  keywords: "création site web, landing page, agence web Marseille, site internet professionnel, site web 48h, création site pas cher, site web rapide",
+  title: "WebFury - Création de landing pages en 48h à Marseille et Perpignan",
+  description: "Agence de création de landing pages professionnelles à Marseille et Perpignan. Site web pro en 48h pour seulement 29,99€/mois. Conversion garantie.",
+  keywords: "création site web, landing page, agence web Marseille, agence web Perpignan, site internet professionnel, site web 48h, création site pas cher, site web rapide",
   authors: [{ name: "WebFury", url: "https://webfury.fr" }],
   creator: "WebFury",
   publisher: "WebFury",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     url: "https://webfury.fr",
     title: "WebFury - Création de landing pages en 48h",
-    description: "Agence web à Marseille. Votre landing page professionnelle en 48h pour 29,99€/mois.",
+    description: "Agence web à Marseille et Perpignan. Votre landing page professionnelle en 48h pour 29,99€/mois.",
     siteName: "WebFury",
   },
   twitter: {
@@ -51,6 +51,10 @@ export default function RootLayout({
         <meta name="geo.placename" content="Marseille" />
         <meta name="geo.position" content="43.296482;5.369780" />
         <meta name="ICBM" content="43.296482, 5.369780" />
+        <meta name="geo.region" content="FR-66" />
+        <meta name="geo.placename" content="Perpignan" />
+        <meta name="geo.position" content="42.688659;2.894833" />
+        <meta name="ICBM" content="42.688659, 2.894833" />
         <link rel="icon" href="/icone.png" />
         <link rel="apple-touch-icon" href="/icone.png" />
         <link rel="canonical" href="https://webfury.fr" />
@@ -65,13 +69,21 @@ export default function RootLayout({
               "name": "WebFury",
               "url": "https://webfury.fr",
               "logo": "https://webfury.fr/icone.png",
-              "description": "Agence de création de landing pages professionnelles à Marseille. Site web pro en 48h pour seulement 29,99€/mois.",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Marseille",
-                "addressRegion": "PACA",
-                "addressCountry": "FR"
-              },
+              "description": "Agence de création de landing pages professionnelles à Marseille et Perpignan. Site web pro en 48h pour seulement 29,99€/mois.",
+              "address": [
+                {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Marseille",
+                  "addressRegion": "PACA",
+                  "addressCountry": "FR"
+                },
+                {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Perpignan",
+                  "addressRegion": "Occitanie",
+                  "addressCountry": "FR"
+                }
+              ],
               "priceRange": "€€",
               "openingHours": "Lundi-Samedi 09:00-18:00",
               "telephone": "+33627521624",
