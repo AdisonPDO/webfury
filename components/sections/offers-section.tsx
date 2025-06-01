@@ -19,7 +19,7 @@ export default function OffersSection() {
 
   const openCalendly = () => {
     // Open Calendly in a new window
-    window.open("https://calendly.com/webfury", "_blank")
+    window.open("https://calendly.com/adison-apdev/30min", "_blank")
   }
 
   return (
@@ -68,9 +68,9 @@ export default function OffersSection() {
 
               <div className="mb-6">
                 <div className="text-4xl font-bold text-gray-900">
-                  19,99€<span className="text-lg font-normal text-gray-500">/mois</span>
+                  49€<span className="text-lg font-normal text-gray-500">/mois</span>
                 </div>
-                <div className="text-gray-500">+ 399€ de setup unique</div>
+                <div className="text-gray-500">+ 199€ de setup unique</div>
               </div>
 
               <div className="space-y-3 mb-6">
@@ -125,9 +125,9 @@ export default function OffersSection() {
 
               <div className="mb-6">
                 <div className="text-4xl font-bold text-gray-900">
-                  29,99€<span className="text-lg font-normal text-gray-500">/mois</span>
+                  79€<span className="text-lg font-normal text-gray-500">/mois</span>
                 </div>
-                <div className="text-gray-500">+ 149€ de setup unique</div>
+                <div className="text-gray-500">+ 99€ de setup unique</div>
               </div>
 
               <div className="space-y-3 mb-6">
@@ -183,7 +183,7 @@ export default function OffersSection() {
 
               <div className="mb-6">
                 <div className="text-4xl font-bold text-gray-900">
-                  39,99€<span className="text-lg font-normal text-gray-500">/mois</span>
+                  129€<span className="text-lg font-normal text-gray-500">/mois</span>
                 </div>
                 <div className="text-gray-500">Sans frais de setup</div>
               </div>
@@ -193,10 +193,10 @@ export default function OffersSection() {
                   "Landing page professionnelle avec CTA",
                   "Design premium ultra-convertissant",
                   "Formulaire de contact optimisé",
-                  "SEO avancé + stratégie de conversion",
+                  "SEO technique complet",
                   "Intégration réseaux sociaux",
                   "Certificat SSL inclus",
-                  "Modifications illimitées",
+                  "5 modifications mensuelles",
                   "Support prioritaire 7j/7",
                 ].map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">

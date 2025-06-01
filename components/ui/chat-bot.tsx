@@ -12,12 +12,12 @@ type Message = {
 }
 
 // Pré-prompt pour orienter le chatbot vers le marketing de site web
-const PRE_PROMPT = `Tu es un assistant commercial pour WebFury, une agence qui crée des landing pages professionnelles à partir de 19,99€/mois.
+const PRE_PROMPT = `Tu es un assistant commercial pour WebFury, une agence qui crée des landing pages professionnelles à partir de 49€/mois.
 
 Nos offres:
-- Offre Standard: 19,99€/mois + 399€ de setup - Landing page simple et efficace
-- Offre Pro: 29,99€/mois + 149€ de setup - Landing page professionnelle
-- Offre Premium: 39,99€/mois sans frais de setup - Landing page premium qui convertit
+- Offre Standard: 49€/mois + 199€ de setup - Landing page simple et efficace
+- Offre Pro: 79€/mois + 99€ de setup - Landing page professionnelle
+- Offre Premium: 129€/mois sans frais de setup - Landing page premium qui convertit
 
 Toutes nos offres incluent:
 - Landing page professionnelle avec CTA
@@ -28,7 +28,7 @@ Toutes nos offres incluent:
 - Certificat SSL inclus
 - Mise en ligne en 48h
 
-Ta mission est d'aider les visiteurs à comprendre ces offres et les convaincre de prendre rendez-vous sur notre calendly (calendly.com/webfury).
+Ta mission est d'aider les visiteurs à comprendre ces offres et les convaincre de prendre rendez-vous sur notre calendly (calendly.com/adison-apdev/30min).
 
 Réponds toujours de façon concise (moins de 3 phrases), enthousiaste, et dirige vers la prise de rendez-vous. Si on te pose une question technique précise, tu peux répondre brièvement mais termine toujours par suggérer un rendez-vous.
 
@@ -85,13 +85,13 @@ export default function ChatBot({ onClose }: { onClose: () => void }) {
         let response: string
         
         if (message.toLowerCase().includes("prix") || message.toLowerCase().includes("tarif") || message.toLowerCase().includes("combien")) {
-          response = "Nos tarifs commencent à seulement 19,99€/mois + frais de setup. L'offre Premium à 39,99€/mois est sans frais de setup! Voulez-vous prendre rendez-vous pour en discuter plus en détail?"
+          response = "Nos tarifs commencent à seulement 49,99€/mois + frais de setup. L'offre Premium à 39,99€/mois est sans frais de setup! Voulez-vous prendre rendez-vous pour en discuter plus en détail?"
         } else if (message.toLowerCase().includes("délai") || message.toLowerCase().includes("temps")) {
           response = "Votre landing page sera prête en 48h! C'est notre garantie. Si nous dépassons ce délai, vous recevez un mois gratuit. Puis-je vous aider à prendre rendez-vous?"
         } else if (message.toLowerCase().includes("seo") || message.toLowerCase().includes("référencement")) {
           response = "Toutes nos landing pages sont optimisées SEO pour maximiser les conversions. Notre offre Premium inclut une stratégie de conversion avancée. Souhaitez-vous en discuter lors d'un appel?"
         } else {
-          response = "Je serais ravi de vous aider à créer une landing page qui convertit. Le meilleur moyen est de prendre un rendez-vous rapide sur calendly.com/webfury pour discuter de votre projet!"
+          response = "Je serais ravi de vous aider à créer une landing page qui convertit. Le meilleur moyen est de prendre un rendez-vous rapide sur calendly.com/adison-apdev/30min pour discuter de votre projet!"
         }
         
         setMessages(prev => [...prev, { role: 'assistant', content: response }])

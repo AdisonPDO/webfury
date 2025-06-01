@@ -19,7 +19,7 @@ export default function ComparisonSection() {
 
   const openCalendly = () => {
     // Open Calendly in a new window
-    window.open("https://calendly.com/webfury", "_blank");
+    window.open("https://calendly.com/adison-apdev/30min", "_blank");
   };
 
   return (
@@ -115,7 +115,7 @@ export default function ComparisonSection() {
 
           <div className="mb-6">
             <div className="text-3xl font-bold text-white mb-1">
-              29,99€/mois
+              49,99€/mois
             </div>
             <div className="text-white/60">tout compris, sans surprise</div>
           </div>

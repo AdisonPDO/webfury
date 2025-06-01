@@ -9,7 +9,7 @@ export default function CGUPage() {
     {
       id: "presentation",
       title: "1. Présentation du service",
-      content: "WebFury est un service de création et d'hébergement de sites web professionnels proposé par WebFury SAS. Notre offre propose la création d'un site web en 48 heures, avec un abonnement mensuel à partir de 19,99€."
+      content: "WebFury est un service de création et d'hébergement de sites web professionnels proposé par WebFury SAS. Notre offre propose la création d'un site web en 48 heures, avec un abonnement mensuel à partir de 49,99€."
     },
     {
       id: "tarifs",

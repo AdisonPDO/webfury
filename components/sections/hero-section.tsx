@@ -79,7 +79,7 @@ export default function HeroSection({ pacifico }: { pacifico: any }) {
                 pacifico.className
               )}
             >
-              29,99€/mois. Point final.
+              49,99€/mois. Point final.
             </span>
           </h1>
         </motion.div>

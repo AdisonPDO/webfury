@@ -27,6 +27,12 @@ export default function DemoSection() {
       result: "Nombre de devis doublé en 40 jours",
       type: "Artisan Peintre",
     },
+    {
+      image: "/carrousel/mmp.png",
+      title: "Ma Maison Positive",
+      result: "Visiblité et devis triplés en 20 jours",
+      type: "Instalation photovoltaïque",
+    },
   ];
 
   const nextSlide = () => {
@@ -52,7 +58,7 @@ export default function DemoSection() {
 
   const openCalendly = () => {
     // Open Calendly in a new window
-    window.open("https://calendly.com/webfury", "_blank");
+    window.open("https://calendly.com/adison-apdev/30min", "_blank");
   };
 
   return (

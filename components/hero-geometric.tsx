@@ -136,7 +136,7 @@ export default function HeroGeometric({
 
   const openCalendly = () => {
     // Open Calendly in a new window
-    window.open("https://calendly.com/webfury", "_blank");
+    window.open("https://calendly.com/adison-apdev/30min", "_blank");
   };
 
   return (
@@ -232,7 +232,7 @@ export default function HeroGeometric({
             animate="visible"
           >
             <p className="text-base sm:text-lg text-white/60 mb-6 leading-relaxed max-w-lg mx-auto mt-12">
-              Votre site pro en 48h pour 29,99€. Point final.
+              Votre site pro en 48h pour 49,99€. Point final.
             </p>
 
             <motion.button

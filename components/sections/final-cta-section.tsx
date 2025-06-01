@@ -19,7 +19,7 @@ export default function FinalCtaSection() {
 
   const openCalendly = () => {
     // Open Calendly in a new window
-    window.open("https://calendly.com/webfury", "_blank")
+    window.open("https://calendly.com/adison-apdev/30min", "_blank")
   }
   
   const openDiscord = () => {

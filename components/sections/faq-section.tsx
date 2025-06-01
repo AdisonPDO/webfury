@@ -11,7 +11,7 @@ export default function FaqSection() {
     {
       question: "C'est vraiment tout compris à ce prix?",
       answer:
-        "Oui, absolument. Le prix mensuel de 29,99€ inclut l'hébergement, le nom de domaine, le certificat SSL, les mises à jour de sécurité et le support technique. Les frais de setup uniques de 250€ couvrent la création complète de votre site. Aucun frais caché.",
+        "Oui, absolument. Le prix mensuel de 49,99€ inclut l'hébergement, le nom de domaine, le certificat SSL, les mises à jour de sécurité et le support technique. Les frais de setup uniques de 250€ couvrent la création complète de votre site. Aucun frais caché.",
     },
     {
       question: "Et si je n'ai pas de contenu ou de logo?",
@@ -31,7 +31,7 @@ export default function FaqSection() {
     {
       question: "Combien vous coûte l'absence de site web chaque mois?",
       answer:
-        "Selon plusieurs études, une entreprise locale sans présence web perd en moyenne entre 10% et 30% de clients potentiels. Pour un commerce réalisant 10 000€ de chiffre d'affaires mensuel, cela représente entre 1 000€ et 3 000€ de manque à gagner chaque mois. Notre solution à 29,99€/mois est donc un investissement extrêmement rentable.",
+        "Selon plusieurs études, une entreprise locale sans présence web perd en moyenne entre 10% et 30% de clients potentiels. Pour un commerce réalisant 10 000€ de chiffre d'affaires mensuel, cela représente entre 1 000€ et 3 000€ de manque à gagner chaque mois. Notre solution à 49,99€/mois est donc un investissement extrêmement rentable.",
     },
   ]
 
